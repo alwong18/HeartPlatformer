@@ -1,8 +1,7 @@
-[gd_scene load_steps=5 format=3 uid="uid://btt6t5fuqs07l"]
+[gd_scene load_steps=4 format=3 uid="uid://btt6t5fuqs07l"]
 
 [ext_resource type="Script" path="res://Scripts/world.gd" id="1_wwwru"]
 [ext_resource type="PackedScene" uid="uid://b2wyl4a0v4bvg" path="res://Scenes/player.tscn" id="2_vexs2"]
-[ext_resource type="Resource" uid="uid://dwpqvepy8mxe4" path="res://Scripts/DefaultMovementData.tres" id="3_ufqmj"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_c2atl"]
 size = Vector2(26, 67)
@@ -21,7 +20,6 @@ polygon = PackedVector2Array(0, 0, 48, 0, 48, 168, 112, 168, 176, 192, 240, 192,
 
 [node name="Player" parent="." instance=ExtResource("2_vexs2")]
 position = Vector2(32, 72)
-movement_data = ExtResource("3_ufqmj")
 
 [node name="StaticBody2D2" type="StaticBody2D" parent="."]
 
